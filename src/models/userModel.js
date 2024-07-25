@@ -1,23 +1,21 @@
-import { verify } from "crypto";
 import mongoose from "mongoose";
-import { type } from "os";
 
 const userSchema = new mongoose.Schema({
   username: {
     type: String,
-    required: [true, "Please provide an username"],
+    required: [true, "Please provide a username"],
     unique: true,
   },
   email: {
     type: String,
-    required: [true, "Please provide an email"],
+    required: [true, "Please provide a email"],
     unique: true,
   },
   password: {
     type: String,
-    required: [true, "Please provide an password"],
+    required: [true, "Please provide a password"],
   },
-  isVerified: {
+  isVerfied: {
     type: Boolean,
     default: false,
   },
@@ -29,8 +27,8 @@ const userSchema = new mongoose.Schema({
   forgotPasswordTokenExpiry: Date,
   verifyToken: String,
   verifyTokenExpiry: Date,
-})
+});
 
-const User = mongoose.models.users || mongoose.model("users", userSchema)
+const User = mongoose.models.users || mongoose.model("users", userSchema);
 
-export default User
+export default User;
