@@ -1,0 +1,54 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Exploring the Alps",
+      "slug": "exploring-the-alps",
+      "description": "Join us on an unforgettable journey through the breathtaking landscapes of the Alps. Discover picturesque villages, majestic mountains, and serene lakes.",
+      "price": 1200.0,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/blogs/a.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Safari Adventure in Kenya",
+      "slug": "safari-adventure-kenya",
+      "description": "Experience the thrill of a lifetime with our safari adventure in Kenya. Witness the Big Five in their natural habitat and immerse yourself in the vibrant culture of East Africa.",
+      "price": 2500.0,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "/blogs/bijapur.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Cultural Tour of Japan",
+      "slug": "cultural-tour-japan",
+      "description": "Discover the rich history and culture of Japan on this comprehensive tour. Visit ancient temples, bustling markets, and enjoy traditional Japanese cuisine.",
+      "price": 1800.0,
+      "instructor": "Takashi Yamamoto",
+      "isFeatured": true,
+      "image": "/blogs/b.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Beach Paradise in Bali",
+      "slug": "beach-paradise-bali",
+      "description": "Relax and unwind on the stunning beaches of Bali. Enjoy luxurious accommodations, crystal clear waters, and vibrant nightlife on this tropical getaway.",
+      "price": 1500.0,
+      "instructor": "Nyoman Sukma",
+      "isFeatured": false,
+      "image": "/blogs/dwf.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Historical Journey through Rome",
+      "slug": "historical-journey-rome",
+      "description": "Step back in time and explore the historical wonders of Rome. Visit the Colosseum, the Roman Forum, and the Vatican on this fascinating tour.",
+      "price": 1100.0,
+      "instructor": "Maria Rossi",
+      "isFeatured": true,
+      "image": "/blogs/e.jpg"
+    }
+  ]
+}
